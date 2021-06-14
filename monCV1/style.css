@@ -23,7 +23,7 @@ h1, h1 + p {
 	text-align: center;
 }
 
-img{
+.profile{
 	float: right;
 	width: 100px;
 	height: 100px;
@@ -33,4 +33,31 @@ img{
 
 h2 {
 	color: #6E4A46;
+}
+
+div.content {
+	display: flex;
+}
+.card-left, img {
+	width: 150px;
+	height: 500px;
+	border-radius: 10px;
+}
+
+section {
+	width: 100%;
+}
+
+section div.card-right div.first-card ul.experience {
+	width: 300px;
+}
+
+section div.card-right {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+section div.card-right div.third-card {
+	width: 250px;
 }
