@@ -61,3 +61,19 @@ section div.card-right {
 section div.card-right div.third-card {
 	width: 250px;
 }
+
+@media screen and (max-width : 1024px) {
+	div.content div.card-left {
+		display: none;
+	}
+
+	section div.card-right {
+		flex-direction: column;
+		width: 350px;
+		margin: auto;
+	}
+
+	section div.card-right div.first-card ul.experience {
+		width: auto;
+	}
+}
