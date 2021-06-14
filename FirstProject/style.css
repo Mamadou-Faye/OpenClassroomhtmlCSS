@@ -265,3 +265,49 @@ footer div.content div.photo img {
 footer div.content div.amis div.left ul {
 	list-style-image: url('images/ico_liensexterne.png');
 }
+
+@media all and (max-width: 1024px) {
+	div.contenu-principal {
+		width: auto;
+	}
+
+	header nav ul {
+		flex-direction: column;
+	}
+
+	header nav ul li {
+		margin-right: 1rem;
+		margin-top: .2rem;
+	}
+
+	div.banner {
+		display: none;
+	}
+
+	section {
+		flex-direction: column;
+	}
+
+	section .aside-left {
+		width: auto;
+	}
+
+	section .aside-right {
+		width: 280px;
+		margin: auto;
+		margin-bottom: 1rem;
+	}
+
+	footer div.content {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 1rem;
+	}
+
+	footer div.content div.history,
+	footer div.content div.photo,
+	footer div.content div.amis{
+		flex-direction: column;
+		text-align: center;
+	}
+}
