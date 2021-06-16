@@ -7,3 +7,31 @@ body {
 .my-form {
   padding: 20px;
 }
+
+/* application serie episode */
+.series-frame {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid #EEE;
+  margin: 30px;
+  padding: 10px;
+}
+
+/* section class */
+
+.series-frame-class {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid #EEE;
+  margin: 30px;
+  padding: 10px;
+}
+
+.series-frame-class h2 {
+  margin-right: 20px;
+}
