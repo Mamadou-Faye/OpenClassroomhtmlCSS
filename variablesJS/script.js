@@ -78,3 +78,83 @@ ${secondEpisode.hasBeenWatched ? 'Already watched' : 'Not yet watched'}`;
 document.querySelector('#third-episode-info').innerText = `Episode: ${thirdEpisode.title}
 Duration: ${thirdEpisode.duration} min
 ${thirdEpisode.hasBeenWatched ? 'Already watched' : 'Not yet watched'}`;
+
+// ========================================
+let episodes = [];
+episodes.push(firstEpisode);
+episodes.push(secondEpisode);
+episodes.push(thirdEpisode);
+episodes.push(thirdEpisode);
+episodes.pop();
+
+let numberOfEpisodes = episodes.length;
+
+// =========================================
+const body = document.querySelector('body');
+
+document.querySelector('#episodes').innerText = numberOfEpisodes;
+
+for(let episode of episodes) {
+  let newDiv = document.createElement('div');
+  newDiv.classList.add('series-frame');
+  let newTitle = document.createElement('h2');
+  newTitle.innerText = 'The Story of Tau';
+  let newParagraph = document.createElement('p');
+  newParagraph.innerText = `${episode.title}
+${episode.duration} minutes
+${episode.hasBeenWatched ? 'Already been watched' : 'Not yet watched'}`;
+  newDiv.append(newTitle);
+  newDiv.append(newParagraph);
+  body.append(newDiv);
+}
+
+
+// Les conditions en JavaScript
+
+//On pointe sur l'élément de message
+const espaceMessage = document.getElementById("message");
+//On pointe sur l'élément de bouton
+const bouton = document.getElementById("bouton");
+//On pointe sur l'élément de champ de saisie de l'age
+const ageInput = document.getElementById("age");
+//On défini la variage age qu'on utilisera et un variable définissant l'age de la majorité
+let age;
+let ageMajorite = 18;
+
+
+//Cette fonction affichera le message de validation
+function valider(){
+  espaceMessage.innerHTML = "Vous êtes autorisé à entrer";
+}
+
+//Cette fonction affichera un message d'erreur
+function refuser(){
+  alert("Cette espace est interdit aux personnes mineurs");
+}
+
+
+
+function onConfirm(){
+  
+  //On récupère la saisie de l'age et on transforme le texte en nombre entier
+  age = parseInt(ageInput.value);
+  //Si la saisie n'est pas un nombre, on affiche un message d'erreur
+  if(isNaN(age)){
+    alert("Ceci n'est pas un nombre");
+    return;
+  }
+
+  //====Code à rédiger ici======
+  
+ if(age < ageMajorite){
+    refuser();
+  }else{
+    valider()
+  }
+  
+  //=======/Code à rédiger ici======
+  
+  
+  //On vide le champ de saisie
+  ageInput.value = "";
+}
