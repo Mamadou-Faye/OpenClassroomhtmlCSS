@@ -79,3 +79,8 @@ AppCache : permet de demander au navigateur de mettre en cache certains fichiers
 Web Sockets : permet des échanges plus rapides, en temps réel, entre le navigateur du visiteur et le serveur qui gère le site web (c'est une sorte d'AJAX amélioré). C'est un peu l'avenir des applications web, qui pourront devenir aussi réactives que les vrais programmes.
 
 WebGL : permet d'introduire de la 3D dans les pages web, en utilisant le standard de la 3D OpenGL (figure suivante). Les scènes 3D sont directement gérées par la carte graphique.
+
+Sous Linux il est possible de tester la compatibilité de vos scripts en ligne de commande. Pour cela placez toute votre arborescence PHP
+sur un serveur utilisant PHP 5. Connectez vous à ce serveur en root et tapez la ligne de commande suivante :
+find /source/repertoire -name \*.php | xargs -n1
+/chemin/vers/php -ddisplay_errors=1 -derror_reporting=8191 -l
