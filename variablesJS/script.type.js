@@ -27,6 +27,6 @@ let episodeTitle = "l'amour";
 let episodeDuration = 46;
 let hasBeenWatched = true;
 // ================================
-document.querySelector('#episode-info').innerHTML = `Episode : ${episodeTitle}
-Duration ${episodeDuration} min
+document.querySelector('#episode-info').innerText = `Episode : ${episodeTitle}
+Duration : ${episodeDuration} min
 ${hasBeenWatched ? 'Already watched' : 'Has not watched'}`;
