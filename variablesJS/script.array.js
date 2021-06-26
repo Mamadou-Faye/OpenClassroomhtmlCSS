@@ -41,3 +41,12 @@ let numberOfEpisodes = episodes.length;
 const body = document.querySelector('body');
 
 document.querySelector('#episodes').innerText = numberOfEpisodes;
+
+for(let episode of episodes) {
+	let newDiv = document.createElement('div');
+	newDiv.classList.add('series-frame');
+	let newTitle = document.createElement('h2');
+	newTitle.innerText = 'The story of Tau';
+	let newParagraph = document.createElement('p');
+	newParagraph.innerText = `${episode.firstEpisode}`;
+}
