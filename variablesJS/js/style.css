@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: arial;
+	background: linear-gradient(#ddeeee, #eeeeee);
 }
 
 nav {
@@ -21,4 +22,17 @@ ul {
 ul li {
 	padding: 6px 15px;
 	list-style-type: none;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	margin-top: 20%;
+	margin-bottom: 20%;
+	color: #ffffff;
 }

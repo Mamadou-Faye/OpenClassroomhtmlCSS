@@ -25,7 +25,6 @@ const generateComponent = (show) => {
   return {
     titleText, seasonsText, episodesText
   };
-
 }
 
 const tauComponent = generateComponent(tau);
@@ -33,7 +32,6 @@ const meldrumComponent = generateComponent(meldrum);
 const claraComponent = generateComponent(clara);
 
 const shows = [tauComponent, meldrumComponent, claraComponent];
-
 
 // ===================================
 
