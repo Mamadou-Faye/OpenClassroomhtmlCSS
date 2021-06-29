@@ -18,6 +18,10 @@ nav h1 {
 	color: #222;
 }
 
+nav h1 span {
+	color: #C60030;
+}
+
 ul {
 	display: flex;
 	flex-wrap: wrap;
