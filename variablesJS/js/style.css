@@ -14,6 +14,10 @@ nav {
 	background: #eee;
 }
 
+nav h1 {
+	color: #222;
+}
+
 ul {
 	display: flex;
 	flex-wrap: wrap;
@@ -22,6 +26,15 @@ ul {
 ul li {
 	padding: 6px 15px;
 	list-style-type: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #222;
+}
+
+ul li a:hover {
+	color: #C60030;
 }
 
 header {
