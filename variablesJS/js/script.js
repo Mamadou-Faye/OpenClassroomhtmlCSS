@@ -58,4 +58,9 @@ window.addEventListener('scroll', function () {
 	let value = window.scrollY;
 	monBouton.style.marginLeft = value * 1.6 + 'px';
 	monTitre.style.letterSpacing = value * 0.1 + 'px';
-})
+});
+
+// let description = {
+// 	text : "portez ce whisky au vieux juge blond qui fume";
+// }
+// document.getElementById('text').innerHTML = description.text;
