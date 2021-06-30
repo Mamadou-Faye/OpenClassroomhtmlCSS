@@ -247,3 +247,22 @@ const stringStats = (stringToTest) => {
     averageWordLength : getAverageWordLength(stringToTest)
   });
 }
+
+// simplifier mon code
+
+let personne1 = "Jean";
+let personne2 = "Paul";
+let personne3 = "Ringo";
+
+const saluer = (prenom) => {
+  // On met la première lettre en majuscule, on salut la personne et on donne le nombre de lettre dans son prenom
+
+  const monPrenom = prenom.toUpperCase() + prenom.substr(1);
+  const longueurPrenom = monPrenom.length;
+  console.log(`Bonjour ${monPrenom}, ton prenom contient ${longueurPrenom} lettres`);
+}
+
+// On salue les trois personnes
+saluer(personne1);
+saluer(personne2);
+saluer(personne3);
