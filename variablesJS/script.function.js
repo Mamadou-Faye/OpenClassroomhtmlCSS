@@ -265,4 +265,7 @@ const saluer = (prenom) => {
 // On salue les trois personnes
 saluer(personne1);
 saluer(personne2);
-saluer(personne3);
+saluer(personne3);// 778826153 pauldiogoye.faye@uvs.edu.sn  // fayepaulvisa@gmail.com
+
+// amylecerf.ndiaye@uvs.edu.sn  766320520
+
