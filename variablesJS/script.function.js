@@ -213,3 +213,37 @@ const printStringStats = (stringToTest) => {
     averageWordLength : getAverageWordLength(stringToTest);
   });
 }
+
+// Reprendre l'exemple précédent en utilisant des commentaires
+
+const getWordCount = (stringToTest) => {
+  const wordArray = stringToTest.split(" ");
+  return wordArray.length;
+}
+
+const getLetterCount = (stringToTest) => {
+  const wordArray = stringToTest.split(' ');
+  let totalLetters = 0;
+  for (let word of wordArray) {
+    // retirer la ponctuation pour ne compter que les lettres
+    word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+    totalLetters += word.length;
+  }
+  return totalLetters;
+}
+
+/*
+** Renvoie la longueur moyenne des mots
+** Arrondie à deux chiffres après la virgule
+*/
+const getAverageWordLength = (stringToTest) => {
+  return parseFloat(getWordCount(stringToTest) / getLetterCount(stringToTest).toFixed(2));
+}
+
+const stringStats = (stringToTest) => {
+  console.log({
+    wordCount : getWordCount(stringToTest),
+    letterCount : getLetterCount(stringToTest),
+    averageWordLength : getAverageWordLength(stringToTest)
+  });
+}
