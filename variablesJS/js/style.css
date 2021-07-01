@@ -12,6 +12,8 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	background: #eee;
+	position: sticky;
+	top: 0;
 }
 
 nav h1 {
@@ -46,6 +48,9 @@ header {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	background: url('images/img13.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 header h1 {
@@ -53,3 +58,4 @@ header h1 {
 	margin-bottom: 20%;
 	color: #ffffff;
 }
+
