@@ -48,9 +48,10 @@ header {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background: url('images/img13.jpg');
+	background: url('images/img9.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 header h1 {
