@@ -52,6 +52,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	padding: 2rem 0rem;
 }
 
 header h1 {
@@ -62,5 +63,11 @@ header button {
 	
 	outline: none;
 	cursor: pointer;
+}
+
+header img {
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
 }
 
