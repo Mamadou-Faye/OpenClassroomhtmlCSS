@@ -45,7 +45,7 @@ ul li a:hover {
 
 header {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	justify-content: center;
 	align-items: center;
 	background: url('images/img9.jpg');
@@ -55,8 +55,12 @@ header {
 }
 
 header h1 {
-	margin-top: 20%;
-	margin-bottom: 20%;
 	color: #ffffff;
+}
+
+header button {
+	
+	outline: none;
+	cursor: pointer;
 }
 
