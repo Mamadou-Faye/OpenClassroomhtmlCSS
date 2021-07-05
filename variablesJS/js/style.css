@@ -83,14 +83,127 @@ header img {
 	border-radius: 100%;
 }
 
+/*section de mes compétences*/
 section.section-comp {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 60%;
+	margin: auto;
 }
 
 section.section-comp table.table-comp {
 	border: 1px solid #000000;
 	border-collapse: collapse;
 }
+
+.gris{
+	border:10px solid slategray;
+	width:70%;
+	display:inline-block;
+}
+.blanc{
+	border:10px solid white;
+	width:30%;
+	display:inline-block;
+}
+.gris1{
+	border:10px solid slategray;
+	width:70%;
+	display:inline-block;
+}
+.blanc1{
+	border:10px solid white;
+	width:30%;
+	display:inline-block;
+}
+.tr1{
+	text-align:center;
+	padding-left:20px;
+}
+.gris2{
+	border:10px solid slategray;
+	width:50%;
+	display:inline-block;
+}
+.blanc2{
+	border:10px solid white;
+	width:50%;
+	display:inline-block;
+}
+.gris3{
+	border:10px solid slategray;
+	width:40%;
+	display:inline-block;
+}
+.blanc3{
+	border:10px solid white;
+	width:60%;
+	display:inline-block;
+}
+.gris4{
+	width:70%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc4{
+	width:30%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris5{
+	width:60%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc5{
+	width:40%;
+	border:10px solid white;
+	display: inline-block;
+}
+.gris6{
+	width:40%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc6{
+	width:60%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris7{
+	width:30%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc7{
+	width:70%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris8{
+	width:60%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc8{
+	width:40%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris9{
+	width:40%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc9{
+	width:60%;
+	border:10px solid white;
+	display:inline-block;
+}
+
+.mesCompetences .container .row {
+	margin-top: 10rem;
+}
+
 
