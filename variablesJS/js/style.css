@@ -83,3 +83,14 @@ header img {
 	border-radius: 100%;
 }
 
+section.section-comp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+section.section-comp table.table-comp {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+
