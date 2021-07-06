@@ -57,7 +57,7 @@ let monBouton = document.getElementById('btn');
 window.addEventListener('scroll', function () {
 	let value = window.scrollY;
 	// monBouton.style.marginTop = value * 1.6 + 'px';
-	monTitre.style.letterSpacing = value * 0.1 + 'px';
+	monTitre.style.letterSpacing = value * 0.05 + 'px';
 });
 
 // let description = {
