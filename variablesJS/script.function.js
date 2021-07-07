@@ -313,3 +313,15 @@ const testEdgeLetterCount = () => {
     console.error('Edge getLetterCount failed !');
   }
 }
+
+// Voici à quoi pourraient ressembler les deux tests ci-dessus dans certaines architectures
+
+descride('getWordCount()', function () {
+  it('Should find four words', function () {
+    expect(getWordCount('I have four words!').to.equal(4));
+  });
+
+  it('Should find no words', function () {
+    expect(getWordCount('         ').to.equal(0));
+  });
+});
