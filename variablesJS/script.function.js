@@ -269,3 +269,47 @@ saluer(personne3);// 778826153 pauldiogoye.faye@uvs.edu.sn  // fayepaulvisa@gmai
 
 // amylecerf.ndiaye@uvs.edu.sn  766320520
 
+const getWordCount = (stringToTest) => {
+  const wordArray = stringToTest.split(' ');
+  return wordArray.length;
+}
+
+const getLetterCount = (stringToTest) => {
+  const wordArray = stringToTest.split(' ');
+  let totalLetters = 0;
+  for (let word of wordArray) {
+    word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+    totalLetters += word.length;
+  }
+  return totalLetters;
+}
+
+// Vous pourriez écrire des tests comme code accessoire
+
+const testSimpleWordCount = () => {
+  const testString = 'I have four word';
+  if (getWordCount(testString) !== 4) {
+    console.error('Simple getWordCount failed !');
+  }
+}
+
+const testEdgeWordCount = () => {
+  const testString = '         ';
+  if (getWordCount(testString) !== 0) {
+    console.error('Edge getWordCount failed !');
+  }
+}
+
+const testSimpleLetterCount = () => {
+  const testString = 'I have twenty one letters !';
+  if (getLetterCount(testString) !== 21) {
+    console.error('Simple getLetterCount failed !');
+  }
+}
+
+const testEdgeLetterCount = () => {
+  const testString = '")(&;//!!';
+  if (getLetterCount(testString) !== 0) {
+    console.error('Edge getLetterCount failed !');
+  }
+}
