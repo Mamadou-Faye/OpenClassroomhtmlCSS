@@ -103,6 +103,10 @@ section.section-comp table.table-comp {
 	border-collapse: collapse;
 }
 
+section.section-comp table.table-comp tr td span:nth-child() {
+	flex-direction: row;
+}
+
 .gris{
 	border:10px solid slategray;
 	width:70%;
