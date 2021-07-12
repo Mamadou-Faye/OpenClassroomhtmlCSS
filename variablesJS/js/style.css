@@ -216,4 +216,68 @@ section.section-comp table.table-comp tr td span:nth-child() {
 	margin-top: 10rem;
 }
 
+.mesFormations {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 840px;
+	margin: auto;
+	margin-top: -5rem;
+}
+
+.mesFormations .container h1{
+	font-family: Playfair Display;
+	color: #eee;
+	text-align: center;
+	margin-bottom: 4rem;
+	text-transform: uppercase;
+}
+
+.mesFormations .container .text-capitalize{
+	font-family: Libre Baskerville, sans-serif; 
+	font-size:20px;
+	color: #eee;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*.mesFormations .container div.text-capitalize h3 {
+	border-bottom: 1px solid #ffffff;
+}
+*/
+.mesFormations .container .table {
+	font-family: Libre Baskerville, sans-serif; 
+	font-size:15px;
+}
+
+section#forms div.container .table tr:nth-child(2),
+section#forms div.container .table tr:nth-child(4){
+	background-color:#eee;
+}
+
+section#forms div.container .table tr th{
+	font-family: Libre Baskerville, sans-serif;
+	font-size: 20px;
+}
+
+section#forms div.container .table tr td{
+	font-family: Libre Baskerville, sans-serif;
+	font-size: 17px;
+}
+
+section#forms div.container div.formation {
+	display: none;/*763890240*/
+}
+
+#btnform, #btncertif {
+	text-decoration: none;
+	background: #eee;
+	padding: 6px 12px;
+	border-radius: 10px;
+	color: #f16059;
+}
+
+#btnform:hover, #btncertif:hover {
+	color: #C60030;
+}
 
