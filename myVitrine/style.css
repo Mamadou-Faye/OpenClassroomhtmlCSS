@@ -7,10 +7,6 @@
 	font-family: arial;
 }
 
-body {
-	min-height: 1000px;
-}
-
 p {
 	font-weight: 300;
 	color: #111;
@@ -112,4 +108,8 @@ header ul.navigation li a {
 
 header.sticky ul.navigation li a {
 	color: #111;
+}
+
+header ul.navigation li a:hover {
+	color: #ff0157;
 }
