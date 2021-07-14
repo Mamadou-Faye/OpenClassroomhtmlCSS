@@ -30,17 +30,17 @@ p {
 }
 
 .banner .content h2 {
-	font-size: 5rem;
+	font-size: 5em;
 	color: #fff;
 }
 
 .banner .content p {
-	font-size: 1rem;
+	font-size: 1em;
 	color: #fff;
 }
 
 .btn {
-	font-size: 1rem;
+	font-size: 1em;
 	color: #fff;
 	background: #ff0157;
 	display: inline-block;
@@ -78,7 +78,7 @@ header.sticky {
 header .logo {
 	font-weight: 700;
 	color: #fff;
-	font-size: 2rem;
+	font-size: 2em;
 	text-decoration: none;
 }
 
@@ -112,4 +112,32 @@ header.sticky ul.navigation li a {
 
 header ul.navigation li a:hover {
 	color: #ff0157;
+}
+
+section {
+	padding: 100px;
+}
+
+.row {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.row .col50 {
+	position: relative;
+	width: 48%;
+}
+
+.titileText {
+	color: #111;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.titileText span {
+	color: #ff0157;
+	font-weight: 700;
+	font-size: 1.5em;
 }
