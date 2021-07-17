@@ -102,6 +102,14 @@ header img {
 	border-radius: 100%;
 }
 
+.btn {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background: #eee;
+	border-radius: 10px;
+	color: #222;
+}
+
 /*section de mes compétences*/
 section.section-comp {
 	display: flex;
