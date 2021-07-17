@@ -191,5 +191,11 @@
 	<h1 id="text"></h1>
 
 	<script src="script.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('nav');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
 </body>
 </html>

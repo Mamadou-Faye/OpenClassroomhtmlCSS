@@ -22,8 +22,18 @@ nav {
 	z-index: 10000;
 }
 
+nav.sticky {
+	background: #eee;
+	padding: 10px 100px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
 nav h1 {
 	color: #eee;
+}
+
+nav.sticky h1 {
+	color: #222;
 }
 
 nav h1 span {
@@ -43,6 +53,10 @@ ul li {
 ul li a {
 	text-decoration: none;
 	color: #eee;
+}
+
+nav.sticky ul li a {
+	color: #222;
 }
 
 ul li a:hover {
