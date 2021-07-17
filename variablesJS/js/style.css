@@ -13,9 +13,10 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
+	padding: 40px 100px;
 	width: 100%;
 	margin: auto;
 	z-index: 10000;
