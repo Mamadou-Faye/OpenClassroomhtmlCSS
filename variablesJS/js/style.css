@@ -13,13 +13,16 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	background: #eee;
-	position: sticky;
+	position: absolute;
 	top: 0;
+	left: 0;
+	width: 100%;
+	margin: auto;
+	z-index: 10000;
 }
 
 nav h1 {
-	color: #222;
+	color: #eee;
 }
 
 nav h1 span {
@@ -38,7 +41,7 @@ ul li {
 
 ul li a {
 	text-decoration: none;
-	color: #222;
+	color: #eee;
 }
 
 ul li a:hover {
@@ -50,6 +53,7 @@ header {
 	flex-direction: column-reverse;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 	background: url('images/img9.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
