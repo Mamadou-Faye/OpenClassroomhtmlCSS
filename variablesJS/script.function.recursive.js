@@ -10,6 +10,11 @@ const findElement = (array, thingToFind) => {
 // autre approche
 
 const binarySearch = (array, thingToFind, start, end) => {
+
+	if (start > end) {
+		return false;
+	}
+
 	let mid = Math.floor((start * end) / 2);
 	if (array(mid) === thingToFind) {
 		return true;
