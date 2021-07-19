@@ -265,7 +265,7 @@ section.section-comp table.table-comp tr td span:nth-child() {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 840px;
+	width: 70%;
 	margin: auto;
 	margin-top: -5rem;
 }
