@@ -7,6 +7,10 @@
 	font-family: arial;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: linear-gradient(#ddeeee, #eeeeee);
 }
