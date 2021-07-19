@@ -127,6 +127,7 @@ section.section-comp {
 	width: 70%;
 	margin: auto;
 	margin-top: 5rem;
+	position: relative;
 }
 
 section.section-comp table tr {
@@ -143,14 +144,6 @@ section.section-comp h1 {
 	color: #C60030;
 }
 
-section.section-comp table.table-comp {
-	border: 1px solid #000000;
-	border-collapse: collapse;
-}
-
-section.section-comp table.table-comp tr td span:nth-child() {
-	flex-direction: row;
-}
 
 .gris{
 	border:10px solid slategray;
