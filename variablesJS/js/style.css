@@ -293,6 +293,7 @@ section.section-comp h1 {
 .mesFormations .container .table {
 	font-family: Libre Baskerville, sans-serif; 
 	font-size:15px;
+	border-collapse: collapse;
 }
 
 section#forms div.container .table tr:nth-child(2),
@@ -305,9 +306,11 @@ section#forms div.container .table tr th{
 	font-size: 20px;
 }
 
-section#forms div.container .table tr td{
+section#forms div.container .table th, td{
 	font-family: Libre Baskerville, sans-serif;
 	font-size: 17px;
+	border: 1px solid black;
+	padding: 1rem .5rem;
 }
 
 section#forms div.container div.formation {
