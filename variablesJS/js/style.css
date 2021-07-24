@@ -143,6 +143,7 @@ section.section-comp table tr {
 
 section.section-comp table tr td {
 	padding: 1rem;
+	border: none;
 }
 
 section.section-comp h1 {
