@@ -152,6 +152,12 @@ section.section-comp h1 {
 	color: #C60030;
 }
 
+#ans{
+	color: #222;
+	font-size: 20px;
+	font-family: Libre Baskerville, sans-serif;
+}
+
 
 .gris{
 	border:10px solid slategray;
