@@ -366,6 +366,10 @@ section#forms div.container div.formation {
 	font-size: 1.5em;
 }
 
+.service {
+	margin-top: 2rem;
+}
+
 .service .content {
 	display: flex;
 	justify-content: center;
