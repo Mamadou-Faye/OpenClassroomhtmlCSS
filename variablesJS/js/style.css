@@ -398,6 +398,7 @@ section#forms div.container div.formation {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	margin: auto;
 }
 
 .service .content .box .text {

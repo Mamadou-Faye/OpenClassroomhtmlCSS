@@ -54,12 +54,12 @@
 // let monTitre = document.getElementById('titre');
 // let monBouton = document.getElementById('btn');
 
-// window.addEventListener('scroll', function () {
-// 	let value = window.scrollY;
-// 	// monBouton.style.marginTop = value * 1.6 + 'px';
-// 	monTitre.style.letterSpacing = value * 0.05 + 'px';
-// 	monTitre.style.transition = 0.5 + 's';
-// });
+window.addEventListener('scroll', function () {
+	let value = window.scrollY;
+	// monBouton.style.marginTop = value * 1.6 + 'px';
+	monTitre.style.letterSpacing = value * 0.05 + 'px';
+	monTitre.style.transition = 0.5 + 's';
+});
 
 // let description = {
 // 	text : "portez ce whisky au vieux juge blond qui fume";
