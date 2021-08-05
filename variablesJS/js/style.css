@@ -436,3 +436,57 @@ section#forms div.container div.formation {
 	font-weight: 400;
 	color: #111;
 }
+
+/*mes contacts*/
+.contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contact h1{
+	font-family: Playfair Display, sans-serif;
+	font-size: 35px;
+	text-align: center;
+	color: #6f6f6f;
+}
+.contact .form-contact p input{
+	width: 300px;
+	height: 30px;
+	border:none;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	outline: none;
+}
+.contact .form-contact p input:hover{
+	background: #ffd77d;
+}
+.contact .form-contact p textarea{
+	width: 300px;
+	height: 100px;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	border:none;
+	outline: none;
+	color: #717171;
+}
+.contact .form-contact p textarea:hover{
+	background: #ffd77d;
+}
+.contact .form-contact span input{
+	/*width: 100px;
+	height: 60px;*/
+	padding: 15px 30px;
+	color: #fff;
+	background: #FF7B07;
+	font-family: Playfair Display, sans-serif;
+	font-size: 25px;
+	outline: none;
+	cursor: pointer;
+	border:none;
+	border-radius: 10px;
+}
+.contact .form-contact span input:hover{
+	background: #ffd77d;
+}
+
